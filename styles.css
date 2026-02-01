@@ -15,6 +15,7 @@ body {
 }
 
 .container {
+  position:relative;
   width: 50vw;          /* 50% of viewport width */
   max-width: 500px;      /* optional: limit on very large screens */
   aspect-ratio: 1 / 1;   /* maintain square shape automatically */
