@@ -45,6 +45,11 @@ body {
   border-radius: 10px;
   border: none;
 }
+.btn2:active{
+   position: relative;
+   left:30px;
+   top:90px;
+}
 
 .btn1 { background-color: pink; }
 .btn2 { background-color: grey; }
@@ -64,7 +69,7 @@ body {
 .pop {
   display: none;
   position: absolute;
-  top: 250px;
+  top: 900px;
   left: 55px;
 }
 
