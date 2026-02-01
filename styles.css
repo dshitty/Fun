@@ -10,14 +10,14 @@ body {
   align-items: center;
   flex-direction: column;
   background-color: #a855f7;
-  padding: 25px;
+  padding: 0; /* remove padding for full width centering */
   box-sizing: border-box;
 }
+
 .container {
-  width: 30vw;       /* 30% of viewport width */
-  max-width: 400px;   /* max size on big screens */
-  height: 30vw;       /* same as width for square */
-  max-height: 400px;  /* max size on big screens */
+  width: 50vw;          /* 50% of viewport width */
+  max-width: 500px;      /* optional: limit on very large screens */
+  aspect-ratio: 1 / 1;   /* maintain square shape automatically */
   border: 1px solid black;
   background-color: #fdf2f8;
   display: flex;
@@ -70,12 +70,8 @@ body {
 
 /* Media query for mobile */
 @media (max-width: 480px) {
-  body {
-    padding: 10px;
-  }
   .container {
-    width: 70%;
-    height: auto;
+    width: 70%;      /* shrink for small screens */
   }
 
   .btn1, .btn2 {
