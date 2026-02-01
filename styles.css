@@ -61,3 +61,14 @@ body{
   top:250px;
   left:55px;
 }
+@media (max-width:480px)
+        {
+            body{
+                width:;
+            }
+            .container{
+                
+                
+                width: 70%; /* 1 / 0.6 */
+            } 
+            
