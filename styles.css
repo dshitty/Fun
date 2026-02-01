@@ -13,10 +13,11 @@ body {
   padding: 25px;
   box-sizing: border-box;
 }
-
 .container {
-  width: 200px;
-  height: 200px;
+  width: 30vw;       /* 30% of viewport width */
+  max-width: 400px;   /* max size on big screens */
+  height: 30vw;       /* same as width for square */
+  max-height: 400px;  /* max size on big screens */
   border: 1px solid black;
   background-color: #fdf2f8;
   display: flex;
