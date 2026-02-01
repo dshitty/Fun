@@ -1,0 +1,63 @@
+body{
+  padding: 25px;
+  display:flex;
+  justify-content: centre;
+  align-items: centre;
+  background-color: #a855f7;
+}
+.title {
+	color: #5C6AC4;
+}
+.container{
+  width:200px;
+  height:200px;
+  border: 1px solid black;
+  background-color: #fdf2f8;
+  
+}
+.qn{
+  margin-top: 50px;
+  margin-left: 30px;
+  font-weight: 200px;
+}
+.btn1{
+  width:70px;
+  height:30px;
+  border-radius: 10px;
+  background-color: pink;
+  border:none;
+  
+}
+.btn2:active{
+   position: relative;
+   left:30px;
+   top:90px;
+}
+.btn2{
+  width:70px;
+  height:30px;
+  border-radius: 10px;
+  border: none;
+  background-color: grey;
+}
+.btns{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.sim{
+  display:none;
+  
+  width:200px;
+  height:200px;
+}
+.sim img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* makes it fill nicely */
+}
+.pop{
+  display:none;
+  position: absolute;
+  top:250px;
+  left:55px;
+}
