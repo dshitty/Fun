@@ -69,8 +69,8 @@ body {
 .pop {
   display: none;
   position: absolute;
-  top: 900px;
-  left: 55px;
+  top: 1100px;
+  left: 400px;
 }
 
 /* Media query for mobile */
